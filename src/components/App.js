@@ -1,7 +1,11 @@
-import '../css/app.css'
+import '../css/app.scss'
 
 function App() {
-  return "superpaper"
+  return (
+    <div id="app">
+      <h1>superpaper</h1>
+    </div>
+  )
 }
 
 export default App;
