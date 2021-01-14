@@ -16,5 +16,26 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-style: italic;
+  h1 {
+    font-style: italic;
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+  p {
+    color: gray;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .btn {
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 1em;
+    font-size: 1.2em;
+    border: 1px solid gray;
+    color: white;
+    background: #1C1D1F;
+    cursor: pointer;
+  }
 }
